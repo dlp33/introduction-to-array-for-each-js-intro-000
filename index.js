@@ -7,7 +7,7 @@
 //
 // }
 
-function changeCompletely() {
+function changeCompletely(array) {
 
   array.forEach(function(value) {
     value += ' updated!';
