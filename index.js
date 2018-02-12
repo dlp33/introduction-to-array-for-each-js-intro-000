@@ -5,6 +5,9 @@ function doToElementsInArray(callback, array) {
 
   })
 
+}
+
+function changeCompletely() {
 
 }
 
