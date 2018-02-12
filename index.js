@@ -9,7 +9,7 @@
 
 function changeCompletely(array) {
 
-  array.forEach(function(value) {
+  array.prototype.forEach(function(value) {
     value += ' updated!';
   });
 
