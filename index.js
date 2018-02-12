@@ -9,6 +9,10 @@
 
 function changeCompletely() {
 
+  array.forEach(function(value) {
+    value += ' updated!';
+  });
+
 }
 
 // Add your changeCompletely() function here:
