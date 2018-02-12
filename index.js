@@ -4,12 +4,8 @@ function doToElementsInArray(array, callback) {
 
 
 
-function changeCompletely(array) {
-
-  array.prototype.forEach(function(value) {
-    value += ' updated!';
-  });
-
+function changeCompletely(element, index, array) {
+  array[index] = Math.floor(Math.random() * 100 + 2).toString() + ` ${array[index]}s!!!`;
 }
 
 // Add your changeCompletely() function here:
